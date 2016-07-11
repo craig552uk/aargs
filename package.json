@@ -1,6 +1,6 @@
 {
   "name": "aargs",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Quick, light, easy CLI argument parser",
   "main": "aargs.js",
   "author": {
