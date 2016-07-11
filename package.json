@@ -1,0 +1,15 @@
+{
+  "name": "aargs",
+  "version": "1.0.2",
+  "description": "Quick, light, easy CLI argument parser",
+  "main": "aargs.js",
+  "author": {
+    "email": "craig@craig-russell.co.uk",
+    "name": "Craig Russell"
+  },
+  "keywords": [
+    "cli",
+    "args"
+  ],
+  "license": "ISC"
+}
