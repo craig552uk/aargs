@@ -19,7 +19,7 @@ for(var i=0, l=process.argv.length; i<l; i++){
     // -a value
     if(arg.match(/^-[^\-]/)){
         key = arg.replace(/^-/,'');
-        if(process.argv[i+1].match(/^[^\-]/)){
+        if(process.argv[i+1] && process.argv[i+1].match(/^[^\-]/)){
             module.exports[key] = process.argv[i+1];
             process.argv[i+1]   = null;
         }else{
